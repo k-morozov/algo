@@ -25,6 +25,7 @@ source-repository head
 
 library
   exposed-modules:
+      IsomorphicStrings
       Lib
       SummaryRanges
   other-modules:
@@ -54,6 +55,7 @@ test-suite hs-algo-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      TestIsomorphicStrings
       TestSummaryRanges
       Paths_hs_algo
   hs-source-dirs:
